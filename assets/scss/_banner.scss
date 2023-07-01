@@ -1,0 +1,67 @@
+/* 
+---------------------------------------------
+Banner Style
+--------------------------------------------- 
+*/
+
+.topsite {
+    background: url("");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+}
+
+.main-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 3.125rem 0rem 10.625rem 0rem;
+    position: relative;
+    overflow: hidden;
+    padding-top: 10rem;
+}
+
+.main-banner .left-content {
+    z-index: 99;
+}
+
+.main-banner .left-content h6 {
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgb(242, 108, 79);
+    margin-bottom: 0.9375rem;
+    text-transform: uppercase;
+}
+
+.main-banner .left-content h2 {
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #2a2a2a;
+    margin-bottom: 1.25rem;
+}
+
+.main-banner .left-content p {
+    margin-bottom: 1.875rem;
+    margin-right: 2.8125rem;
+}
+
+.main-banner .left-content p {
+    margin-bottom: 1.875rem;
+    margin-right: 2.8125rem;
+}
+
+.main-banner .right-image {
+    right: -10.25rem;
+    top: 5.25rem;
+    text-align: right;
+    position: relative;
+    z-index: -2;
+}
+
+.main-banner .right-image img {
+    max-width: 100%;
+}

@@ -1,0 +1,103 @@
+/* 
+---------------------------------------------
+ Portfolio
+--------------------------------------------- 
+*/
+
+.our-portfolio {
+          padding-bottom: 10.5rem;
+
+  padding-top: 8.125rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-portfolio .section-heading {
+  margin-bottom: 5rem;
+}
+
+.our-portfolio .container-fluid {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+  position: relative;
+  z-index: 2;
+}
+
+.our-portfolio .item {
+  position: relative;
+  z-index: 222;
+}
+
+.portfolio-item {
+  border-radius: 1.5625rem;
+  box-shadow: 0rem 0rem 0.9375rem rgba(0, 0, 0, 0.1);
+  margin: 0.9375rem;
+}
+
+.portfolio-item .thumb {
+  position: relative;
+  border-radius: 3.125rem;
+}
+
+.portfolio-item:hover .down-content h4,
+.portfolio-item:hover .down-content span {
+  color: rgb(242, 108, 79);
+}
+
+.portfolio-item .thumb img {
+  border-top-right-radius: 1.4375rem;
+  border-top-left-radius: 1.4375rem;
+  overflow: hidden;
+}
+
+.portfolio-item .down-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 1.125rem 0rem;
+  border-bottom-right-radius: 1.4375rem;
+  border-bottom-left-radius: 1.4375rem;
+}
+
+.portfolio-item .down-content h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 0.5rem;
+  transition: all .3s;
+}
+
+.portfolio-item .down-content span {
+  font-size: 0.9375rem;
+  color: #afafaf;
+  transition: all .3s;
+}
+
+.our-portfolio .owl-nav {
+  display: inline-block !important;
+  position: absolute;
+  top: -7.8125rem;
+  right: 15%;
+  max-width: 82.5rem;
+}
+
+.our-portfolio .owl-nav .owl-next {
+  margin-left: 0.625rem;
+}
+
+.our-portfolio .owl-nav span {
+  width: 2.875rem;
+  height: 2.875rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 2.875rem;
+  font-size: 1.875rem;
+  background-color: #eee;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.our-portfolio .owl-nav span:hover {
+  color: #fff;
+  background-color: rgb(242, 108, 79);
+}

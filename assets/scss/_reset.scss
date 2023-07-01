@@ -1,0 +1,54 @@
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+img {
+    width: 100%;
+}

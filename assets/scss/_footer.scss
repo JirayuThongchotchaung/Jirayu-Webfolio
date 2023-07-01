@@ -1,0 +1,24 @@
+/* 
+---------------------------------------------
+Footer Style
+--------------------------------------------- 
+*/
+
+footer {
+    background-image: url(../images/footer-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15.125rem;
+}
+
+footer p {
+    text-align: center;
+    margin: 1.25rem 0rem;
+    color: #fff;
+}
+
+footer p a {
+    color: #fff;
+    transition: all .5s;
+}

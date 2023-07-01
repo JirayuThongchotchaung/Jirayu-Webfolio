@@ -1,0 +1,82 @@
+/* 
+---------------------------------------------
+Skill Style
+--------------------------------------------- 
+*/
+
+.skill {
+    padding-top: 8.125rem;
+    position: relative;
+}
+
+.skill .section-heading {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.skill .section-heading .line-dec {
+    margin: 0 auto;
+}
+
+.skill .naccs {
+    position: relative;
+    z-index: 2;
+}
+
+.skill .icon {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skill .naccs .menu div h4 {
+    color: #fff;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.skill .icon img {
+    margin-bottom: 0.625rem;
+    max-width: 3.75rem;
+    min-width: 3.75rem;
+}
+
+.skill .naccs .menu {
+    text-align: center;
+    margin-bottom: 18.75rem;
+}
+
+.skill .naccs .menu div {
+    top: -0.625rem;
+    color: #2a2a2a;
+    margin: 0.625rem;
+    width: 15%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    border-radius: 0.9375rem;
+}
+
+.skill .naccs .menu div.thumb {
+    box-shadow: 0rem 0rem 0.9375rem rgba(0, 0, 0, 0.1);
+}
+
+.skill .naccs .menu div.thumb {
+    display: inline-block;
+    width: 100%;
+    padding: 1.875rem 0rem;
+    background-color: #fff;
+}
+
+.skill .nacc .ticks-list span {
+    display: inline-block;
+    opacity: 1;
+    margin-right: 2.8125rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}

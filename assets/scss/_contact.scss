@@ -1,0 +1,51 @@
+/* 
+---------------------------------------------
+contact
+--------------------------------------------- 
+*/
+
+.contact-us {
+    padding-top: 21.875rem;
+}
+
+.contact-us .section-heading .line-dec {
+    margin: 0 auto;
+}
+
+.contact-us .section-heading {
+    text-align: center;
+    margin-bottom: 80 px;
+}
+
+.fill-form {
+    padding-top: 3.25rem;
+}
+
+
+.fill-form .icon {
+    text-align: center;
+    box-shadow: 0rem 0rem 0.9375rem rgba(0, 0, 0, 0.1);
+    border-radius: 1.4375rem;
+    padding: 1.5625rem 0.9375rem;
+}
+
+.fill-form .icon img {
+    max-width: 3.75rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.fill-form .icon a {
+    margin-top: 0.9375rem;
+    display: inline-block;
+    white-space: pre-line;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: #2a2a2a;
+    transition: all 0.3s;
+}
+
+.fill-form .icon:hover a {
+    color: rgb(242, 108, 79);
+}
+

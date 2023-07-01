@@ -1,0 +1,221 @@
+/* 
+---------------------------------------------
+responsive
+--------------------------------------------- 
+*/
+
+@media (max-width: 1200px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .mobile-top-fix {
+    margin-top: 1.875rem;
+    margin-bottom: 0rem;
+  }
+
+  .mobile-bottom-fix {
+    margin-bottom: 1.875rem;
+  }
+
+  .mobile-bottom-fix-big {
+    margin-bottom: 3.75rem;
+  }
+}
+@media (max-width: 1200px) {
+  .topsite{
+    background: none;
+  }
+}
+@media (max-width: 1200px) {
+  .header-area .main-nav .logo h4 {
+    font-size: 1.5rem;
+  }
+  .header-area .main-nav .logo h4 img {
+    max-width: 1.5625rem;
+    margin-left: 0rem;
+  }
+  .header-area .main-nav .nav li:last-child {
+    padding-left: 1.25rem;
+  }
+  .fill-form {
+    overflow: hidden;
+    box-sizing: border-box;
+    display: table;
+    width: calc(25% - 20px);
+    margin: 0 auto;
+  }
+   .contact-info {
+    margin-top: 3.75rem;
+  }
+  form#contact {
+    padding: 2.8125rem;
+  }
+    .info-post {
+    margin: 1.25rem;
+    padding: 1.25rem;
+  }
+  footer {
+        margin-top: 1rem;
+
+  }
+}
+
+@media (max-width: 992px) {
+  .intro-banner:before {
+    display: none;
+  }
+  form#contact {
+    overflow: hidden;
+  }
+  .header-area .main-nav .logo h4 {
+    font-size: 1.25rem;
+  }
+
+  .main-banner .left-content h2 {
+    margin-right: 0rem;
+    font-size: calc(60% + 8vmin);
+  }
+  .main-banner .left-content p {
+    text-align: center;
+    margin-right: 0rem;
+    font-size: calc(60% + 1.5vmin);
+  }
+
+  .main-banner {
+    text-align: center;
+    padding: 14.125rem 0rem 0rem 0rem;
+  }
+
+  .main-banner:before {
+    display: none;
+  }
+
+  .main-banner .right-image {
+    display: none;
+  }
+
+  .features-item {
+    margin-bottom: 2.8125rem;
+  }
+
+  .last-features-item,
+  .last-skill-item {
+    margin-bottom: 0rem !important;
+  }
+
+  .skill-item {
+    margin-bottom: 1.875rem;
+  }
+
+  .about-left-image img {
+    display: none;
+  }
+
+  .skill .naccs .menu div {
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+
+  .service-item {
+    text-align: center;
+  }
+
+  .service-item .icon {
+    margin-top: 0rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .about .left-image {
+    margin-right: 1.875rem;
+    margin-left: 1.875rem;
+    margin-bottom: 2.8125rem;
+  }
+
+  .about {
+    text-align: center;
+    margin-bottom: auto;
+    padding-bottom: auto;
+  }
+  .about-right-content .line-dec {
+    margin: 0 auto;
+  }
+
+  .blog-posts {
+    margin-left: 0rem;
+    margin-top: 1.875rem;
+  }
+  .post-item {
+    margin-bottom: 4.375rem;
+  }
+  .our-portfolio .owl-nav {
+    display: none !important;
+  }
+}
+
+@media (max-width: 752px) {
+  .header-area .main-nav .logo h4 {
+    font-size: 1.875rem;
+  }
+  .header-area .main-nav .logo h4 img {
+    max-width: 1.875rem;
+    margin-left: 0.3125rem;
+  }
+  .main-banner .info-stat {
+    margin-bottom: 0.9375rem;
+  }
+
+  .skill .icon img {
+    margin: 0rem;
+  }
+  .skill ul.nacc li.active {
+    padding: 2.8125rem;
+  }
+  .skill .naccs .menu div {
+    font-size: 0rem;
+    padding: 0.01rem;
+  }
+  .skill ul.nacc li .right-image img {
+    float: none;
+  }
+  .our-portfolio .section-heading,
+  .about .section-heading,
+  .about .about-item,
+  .about p,
+  .about .main-green-button {
+    text-align: center;
+  }
+  .our-portfolio .section-heading .line-dec {
+    margin: 0 auto;
+  }
+  .our-skill .section-heading {
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+  .free-quote form input {
+    margin-left: 0rem;
+    padding: 0rem 1.875rem;
+  }
+  .free-quote form button {
+    margin-left: 0rem;
+    border-bottom-left-radius: 2.5rem;
+    border-top-right-radius: 0rem;
+  }
+  .blog-posts {
+    margin-left: 0rem;
+    margin-top: 1.875rem;
+  }
+  .post-item {
+    margin-bottom: 1.875rem;
+  }
+  .post-item .thumb img {
+    max-width: 8.75rem;
+  }
+  .post-item .right-content p {
+    display: none;
+  }
+  .about .about-item {
+    margin-top: 0.9375rem;
+  }
+}

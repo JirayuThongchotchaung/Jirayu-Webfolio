@@ -1,0 +1,99 @@
+/* 
+---------------------------------------------
+ loader
+--------------------------------------------- 
+*/
+
+.js-preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.js-preloader.loaded {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@-webkit-keyframes dot {
+  50% {
+    -webkit-transform: translateX(6rem);
+    transform: translateX(6rem);
+  }
+}
+
+@keyframes dot {
+  50% {
+    -webkit-transform: translateX(6rem);
+    transform: translateX(6rem);
+  }
+}
+
+@-webkit-keyframes dots {
+  50% {
+    -webkit-transform: translateX(-1.9375rem);
+    transform: translateX(-1.9375rem);
+  }
+}
+
+@keyframes dots {
+  50% {
+    -webkit-transform: translateX(-1.9375rem);
+    transform: translateX(-1.9375rem);
+  }
+}
+
+.preloader-inner {
+  position: relative;
+  width: 8.875rem;
+  height: 2.5rem;
+  background: #fff;
+}
+
+.preloader-inner .dot {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 0.75rem;
+  left: 0.9375rem;
+  background: rgb(242, 108, 79);
+  border-radius: 50%;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-animation: dot 2.8s infinite;
+  animation: dot 2.8s infinite;
+}
+
+.preloader-inner .dots {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  margin-top: 0.75rem;
+  margin-left: 1.9375rem;
+  -webkit-animation: dots 2.8s infinite;
+  animation: dots 2.8s infinite;
+}
+
+.preloader-inner .dots span {
+  display: block;
+  float: left;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 1rem;
+  background: rgb(242, 108, 79);
+  border-radius: 50%;
+}
