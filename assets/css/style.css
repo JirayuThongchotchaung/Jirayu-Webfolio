@@ -1714,10 +1714,7 @@ Footer Style
 --------------------------------------------- 
 */
 footer {
-  background-image: url(../images/footer-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   margin-top: 15.125rem;
 }
 
@@ -1930,4 +1927,10 @@ responsive
   .about .about-item {
     margin-top: 0.9375rem;
   }
+}
+.separator {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 150px;
 }/*# sourceMappingURL=style.css.map */
